@@ -12,8 +12,7 @@ while i < size:
     for k in range(size):
         if len(biggest) < len(my_list[k]):
             biggest = my_list[k]
-    i += 1 
+    i +=1
 
 
 print (biggest, "is the largest word in your list")
-
