@@ -2,4 +2,6 @@ a = "1"
 b = 1
 console.log (a+b)
 
-const 
+const pi = Math.PI  / 2 //                  
+
+for (let i = 0; i < pi; i++) {  console (i+1) } //              
