@@ -4,5 +4,9 @@ console.log (a+b)
 
 const pi = Math.PI                    
 
-for (let i = 0; i < pi; i++) {  console (i+1) } //              
+for (let i = 0; i < pi; i++) 
+{
+    console (i+1) 
+}
+              
 
