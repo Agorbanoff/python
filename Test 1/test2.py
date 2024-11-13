@@ -10,7 +10,7 @@ for i in range(size - 1):
     if my_list[i] > my_list[i+1]:
         boolean = True
         print("Масивът не е строго определен")
-        breax
+        break
 
 if boolean == False:
     print("Масивът е строго определен")
