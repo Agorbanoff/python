@@ -2,11 +2,14 @@ my_list = ["mitko", "me", "alex", "martin", "skibidi", "sigmarizz", "ohiogodkaic
 n = int(input("Enter n "))
 count = int(0)
 
-for i in my_list:
-    if len(i) >= n:
-        count+=1
+def count_loop(my_list, count, n): 
+    for i in my_list:
+        if len(i) >= n:
+            count+=1
+    print(count)
 
-print(count)
+count_loop(my_list, count, n)
+
 
 
 

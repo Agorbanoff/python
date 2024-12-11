@@ -1,13 +1,16 @@
 myList = []
 size = int(input("Enter the size of the array \n"))
 
-for i in range(size):
-    number = int(input("Enter a number for the array \n"))
-    myList.append(number)
+def entering_array(size, myList):
+    for i in range(size):
+        number = int(input("Enter a number for the array \n"))
+        myList.append(number)
 
-for i in range(size - 2):
-    if myList[i] == myList[i + 1]:
-        myList.pop(i+1)
+def removing_duplicates(myList):
+    for i in range(size - 2):
+        if myList[i] == myList[i + 1]:
+            myList.pop(i+1)
+    print(myList)
 
-print(myList)
-
+entering_array(size, myList)
+removing_duplicates(myList)

@@ -1,5 +1,4 @@
-
-a = "1"
+ a = "1"
 b = 1
 console.log (a+b)
 
@@ -9,10 +8,9 @@ for (let i = 0; i < pi; i++)
 {
     console (i+1) 
 }
-async   function    
+async function    
 {
     const response = await fetch('https://api.example.com');
     const data = await response.json();
     console.log(data);
-}         
-
+}
