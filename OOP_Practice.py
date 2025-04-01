@@ -81,4 +81,4 @@ while character1.health > 0 or character2.health > 0:
         print("Invalid option!")
 
     if character1.health <= 0:
-        print(f"{character1.name} has been defeated!")
+        print(f"{character1.name} has been defeated!") 
